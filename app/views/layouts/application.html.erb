@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%=@title%></title>
+  <%= render 'layouts/stylesheets'%>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body onload="moveTo(0,0); resizeTo(1000,800);">
+	
+<div id= "banner1" class = "menu">Login
+  
+
+	<%=render 'layouts/banner1'%>
+	<div class = "menu">Menu
+		<%=render 'layouts/menu'%>
+  
+      </div>
+
+</div>
+
+<div id= "banner2">
+	
+	<%=render 'layouts/banner2'%>
+
+	</div>
+
+<div id= "banner3">	</div>
+
+<div id= "banner4">
+	<%= yield %>
+	  </div>
+
+<div id= "banner5">	Here's some of our latest entries!</div>
+
+<div id= "banner6">	
+
+	<%=render 'layouts/banner6'%>
+	
+
+
+</div>
+ 
+
+</body>
+
+</html>

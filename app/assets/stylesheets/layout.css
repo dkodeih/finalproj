@@ -1,0 +1,70 @@
+#banner1 {
+	background-color: 	#C0C0C0;
+	height:710px;
+	position:absolute;
+	top:0px; 
+	left:0px; 
+	min-width:200px
+}
+#banner2 {
+	background-color: 	#C0C0C0;
+	height:200px;
+	position:absolute;
+	top:0px; 
+	left:204px; 
+	min-width:1692px
+}
+#banner3 {
+	background-color: #FFFF00;
+	height:30px;
+	position:absolute;
+	top:200px; 
+	left:204px; 
+	min-width:1692px
+}
+#banner4 {
+	background-color: #FFFF00;
+	height:300px;
+	position:absolute;
+	top:230px; 
+	left:204px; 
+	min-width:1692px
+}
+#banner5 {
+	background-color: #FFFF00;
+	height:30px;
+	position:absolute;
+	top:530px; 
+	left:204px; 
+	min-width:1692px
+}
+
+#banner6 {
+	background-color: #C0C0C0;
+	height:150px;
+	position:absolute;
+	top:560px; 
+	left:204px; 
+	min-width:1692px
+}
+
+
+
+
+body              { font-family: arial, sans-serif }
+         div.menu          { font-weight: bold;
+                             color: white;
+                             border: 2px solid #225599;
+                             text-align: center;
+                             width: 10em;
+                             background-color: #225599 }
+         div.menu:hover a  { display: block }
+         div.menu a        { display: none;
+                             border-top: 2px solid #225599;
+                             background-color: white;
+                             width: 10em;
+                             text-decoration: none;
+                             color: black }
+         div.menu a:hover  { background-color: #dfeeff }
+
+
