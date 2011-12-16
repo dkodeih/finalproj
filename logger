@@ -1,0 +1,100 @@
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: Started GET "/" for 129.115.29.186 at 2011-12-16 12:35:20 -0800
+2011-12-16T20:35:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-16T20:35:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-16T20:35:20+00:00 app[web.1]: Rendered layouts/_stylesheets.html.erb (0.6ms)
+2011-12-16T20:35:20+00:00 app[web.1]: Completed 500 Internal Server Error in 1ms
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: ActionView::Template::Error (layout.css isn't precompiled):
+2011-12-16T20:35:20+00:00 app[web.1]:     1: <%= stylesheet_link_tag	'layout'%>
+2011-12-16T20:35:20+00:00 app[web.1]:   app/views/layouts/_stylesheets.html.erb:1:in `_app_views_layouts__stylesheets_html_erb__1624801620464050864_23174560'
+2011-12-16T20:35:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1766561268578462527_24377640'
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-16T20:35:20+00:00 heroku[nginx]: 129.115.29.186 - - [16/Dec/2011:12:35:20 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" blazing-warrior-9658.heroku.com
+2011-12-16T20:35:20+00:00 heroku[router]: GET blazing-warrior-9658.heroku.com/ dyno=web.1 queue=0 wait=0ms service=7ms status=500 bytes=728
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: Started GET "/" for 129.115.29.186 at 2011-12-16 12:35:20 -0800
+2011-12-16T20:35:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-16T20:35:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-16T20:35:20+00:00 app[web.1]: Rendered layouts/_stylesheets.html.erb (0.8ms)
+2011-12-16T20:35:20+00:00 app[web.1]: Completed 500 Internal Server Error in 2ms
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: ActionView::Template::Error (layout.css isn't precompiled):
+2011-12-16T20:35:20+00:00 app[web.1]:     1: <%= stylesheet_link_tag	'layout'%>
+2011-12-16T20:35:20+00:00 app[web.1]:   app/views/layouts/_stylesheets.html.erb:1:in `_app_views_layouts__stylesheets_html_erb__1624801620464050864_23174560'
+2011-12-16T20:35:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1766561268578462527_24377640'
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-16T20:35:20+00:00 heroku[nginx]: 129.115.29.186 - - [16/Dec/2011:12:35:20 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" blazing-warrior-9658.heroku.com
+2011-12-16T20:35:20+00:00 heroku[router]: GET blazing-warrior-9658.heroku.com/ dyno=web.1 queue=0 wait=0ms service=23ms status=500 bytes=728
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: Started GET "/" for 129.115.29.186 at 2011-12-16 12:35:20 -0800
+2011-12-16T20:35:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-16T20:35:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-16T20:35:20+00:00 app[web.1]: Rendered layouts/_stylesheets.html.erb (0.8ms)
+2011-12-16T20:35:20+00:00 app[web.1]: Completed 500 Internal Server Error in 2ms
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: ActionView::Template::Error (layout.css isn't precompiled):
+2011-12-16T20:35:20+00:00 app[web.1]:     1: <%= stylesheet_link_tag	'layout'%>
+2011-12-16T20:35:20+00:00 app[web.1]:   app/views/layouts/_stylesheets.html.erb:1:in `_app_views_layouts__stylesheets_html_erb__1624801620464050864_23174560'
+2011-12-16T20:35:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1766561268578462527_24377640'
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: 
+2011-12-16T20:35:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-16T20:35:20+00:00 heroku[router]: GET blazing-warrior-9658.heroku.com/ dyno=web.1 queue=0 wait=0ms service=8ms status=500 bytes=728
+2011-12-16T20:35:20+00:00 heroku[nginx]: 129.115.29.186 - - [16/Dec/2011:12:35:20 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" blazing-warrior-9658.heroku.com
+2011-12-16T20:35:21+00:00 heroku[router]: GET blazing-warrior-9658.heroku.com/ dyno=web.1 queue=0 wait=0ms service=10ms status=500 bytes=728
+2011-12-16T20:35:21+00:00 app[web.1]: 
+2011-12-16T20:35:21+00:00 app[web.1]: 
+2011-12-16T20:35:21+00:00 app[web.1]: Started GET "/" for 129.115.29.186 at 2011-12-16 12:35:21 -0800
+2011-12-16T20:35:21+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-16T20:35:21+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-16T20:35:21+00:00 app[web.1]: Rendered layouts/_stylesheets.html.erb (1.0ms)
+2011-12-16T20:35:21+00:00 app[web.1]: Completed 500 Internal Server Error in 2ms
+2011-12-16T20:35:21+00:00 app[web.1]: 
+2011-12-16T20:35:21+00:00 app[web.1]: ActionView::Template::Error (layout.css isn't precompiled):
+2011-12-16T20:35:21+00:00 app[web.1]:     1: <%= stylesheet_link_tag	'layout'%>
+2011-12-16T20:35:21+00:00 app[web.1]:   app/views/layouts/_stylesheets.html.erb:1:in `_app_views_layouts__stylesheets_html_erb__1624801620464050864_23174560'
+2011-12-16T20:35:21+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1766561268578462527_24377640'
+2011-12-16T20:35:21+00:00 app[web.1]: 
+2011-12-16T20:35:21+00:00 app[web.1]: 
+2011-12-16T20:35:21+00:00 app[web.1]: cache: [GET /] miss
+2011-12-16T20:35:21+00:00 heroku[nginx]: 129.115.29.186 - - [16/Dec/2011:12:35:21 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" blazing-warrior-9658.heroku.com
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: Started GET "/" for 129.115.29.186 at 2011-12-16 12:35:22 -0800
+2011-12-16T20:35:22+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-16T20:35:22+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-16T20:35:22+00:00 app[web.1]: Rendered layouts/_stylesheets.html.erb (0.6ms)
+2011-12-16T20:35:22+00:00 app[web.1]: Completed 500 Internal Server Error in 1ms
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: ActionView::Template::Error (layout.css isn't precompiled):
+2011-12-16T20:35:22+00:00 app[web.1]:     1: <%= stylesheet_link_tag	'layout'%>
+2011-12-16T20:35:22+00:00 app[web.1]:   app/views/layouts/_stylesheets.html.erb:1:in `_app_views_layouts__stylesheets_html_erb__1624801620464050864_23174560'
+2011-12-16T20:35:22+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1766561268578462527_24377640'
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: cache: [GET /] miss
+2011-12-16T20:35:22+00:00 heroku[router]: GET blazing-warrior-9658.heroku.com/ dyno=web.1 queue=0 wait=0ms service=7ms status=500 bytes=728
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: Started GET "/" for 129.115.29.186 at 2011-12-16 12:35:22 -0800
+2011-12-16T20:35:22+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-16T20:35:22+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-16T20:35:22+00:00 app[web.1]: Rendered layouts/_stylesheets.html.erb (0.6ms)
+2011-12-16T20:35:22+00:00 app[web.1]: Completed 500 Internal Server Error in 1ms
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: ActionView::Template::Error (layout.css isn't precompiled):
+2011-12-16T20:35:22+00:00 app[web.1]:     1: <%= stylesheet_link_tag	'layout'%>
+2011-12-16T20:35:22+00:00 app[web.1]:   app/views/layouts/_stylesheets.html.erb:1:in `_app_views_layouts__stylesheets_html_erb__1624801620464050864_23174560'
+2011-12-16T20:35:22+00:00 heroku[router]: GET blazing-warrior-9658.heroku.com/ dyno=web.1 queue=0 wait=0ms service=7ms status=500 bytes=728
+2011-12-16T20:35:22+00:00 app[web.1]:   app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1766561268578462527_24377640'
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: 
+2011-12-16T20:35:22+00:00 app[web.1]: cache: [GET /] miss
