@@ -61,7 +61,7 @@
 
 
 
-
+/*
 body              { font-family: arial, sans-serif }
          div.menu          { font-weight: bold;
                              color: white;
@@ -78,4 +78,4 @@ body              { font-family: arial, sans-serif }
                              color: black }
          div.menu a:hover  { background-color: #dfeeff }
 
-
+/*
