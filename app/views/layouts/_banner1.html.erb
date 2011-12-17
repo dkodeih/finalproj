@@ -1,11 +1,26 @@
+	<%= image_tag("catdog.jpg", :alt => "Cat & Dog",:width=>"204",:height=>"128")%>
 <banner1>
+<br />
+	<h2>
+		Menu 
+		     
+	</h2>
 	  <%= link_to 'Sign Up', signup_path %>
 	<% if signed_in? %>
       <li><%= link_to "Sign out", signout_path, :method => :delete %></li>
     <% else %>
 	  <%= link_to 'Sign In', signin_path %>
    <% end %>
-	
-<%= image_tag("catdog.jpg", :alt => "Cat & Dog",:width=>"204",:height=>"128")%>
+
+	<%= link_to 'Home', root_path%>
+
+       <% if signed_in? %>
+
+      <li><%= link_to "Profile", current_user %></li>
+
+      <li><%= link_to "Edit Info", edit_user_path(current_user) %></li>
+      <% end %>
+  
+         <%= link_to 'Contact', contact_path %>
 
 </banner1>
