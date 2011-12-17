@@ -5,9 +5,16 @@
       <strong>First Name</strong> <%= @user.first_name %><br />
       <strong>Last Name</strong> <%= @user.last_name %><br />
       <strong>URL</strong>  <%= link_to user_path(@user), @user %>
-    </td>
-  </tr>
+      <br /> <br />
+       <% unless @user.microposts.empty? %>
+        <table class="microposts" summary="User microposts">
+          <%= render @microposts %>
+        </table>
+        <%= will_paginate @microposts %>
+      <% end %>
+  </tr>  
 </table>
+
 
 
 

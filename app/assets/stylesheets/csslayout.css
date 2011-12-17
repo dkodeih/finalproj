@@ -35,7 +35,7 @@
 }
 #banner4 {
 	background-color: #FFFF00;
-	height:400px;
+	height:500px;
 	position:absolute;
 	top:230px; 
 	left:204px; 
@@ -45,7 +45,7 @@
 	background-color: #FFFF00;
 	height:30px;
 	position:absolute;
-	top:630px; 
+	top:730px; 
 	left:204px; 
 	width:950px
 	
@@ -55,7 +55,7 @@
 	background-color: #C0C0C0;
 	height:150px;
 	position:absolute;
-	top:660px; 
+	top:760px; 
 	left:204px; 
 	width:950px
 }
