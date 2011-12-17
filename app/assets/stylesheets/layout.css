@@ -1,10 +1,20 @@
+#background{
+	background-color: #C0C0C0;
+	background-position: center;
+}
+#container{
+	margin: 0px auto 0px auto;
+	width: 1150px;
+	
+}
+
 #banner1 {
 	background-color: 	#C0C0C0;
 	height:710px;
 	position:absolute;
 	top:0px; 
 	left:0px; 
-	min-width:200px
+	width:200px
 }
 #banner2 {
 	background-color: 	#C0C0C0;
@@ -12,7 +22,7 @@
 	position:absolute;
 	top:0px; 
 	left:204px; 
-	min-width:1692px
+	width:950px
 }
 #banner3 {
 	background-color: #FFFF00;
@@ -20,7 +30,7 @@
 	position:absolute;
 	top:200px; 
 	left:204px; 
-	min-width:1692px
+	width:950px
 }
 #banner4 {
 	background-color: #FFFF00;
@@ -28,7 +38,7 @@
 	position:absolute;
 	top:230px; 
 	left:204px; 
-	min-width:1692px
+	width:950px
 }
 #banner5 {
 	background-color: #FFFF00;
@@ -36,7 +46,8 @@
 	position:absolute;
 	top:530px; 
 	left:204px; 
-	min-width:1692px
+	width:950px
+	
 }
 
 #banner6 {
@@ -45,7 +56,7 @@
 	position:absolute;
 	top:560px; 
 	left:204px; 
-	min-width:1692px
+	width:950px
 }
 
 
