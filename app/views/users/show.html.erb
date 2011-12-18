@@ -4,8 +4,11 @@
     <td class="sidebar round">
       <strong>First Name</strong> <%= @user.first_name %><br />
       <strong>Last Name</strong> <%= @user.last_name %><br />
-      <strong>URL</strong>  <%= link_to user_path(@user), @user %>
+	  <strong>Email</strong> <%= @user.email %><br />
+	  <h2> To get started just click on Home and start posting entries!</h2>
       <br /> <br />
+      <%= @user.first_name %><soft>'s Entries</soft>
+      <br /><br />
        <% unless @user.microposts.empty? %>
         <table class="microposts" summary="User microposts">
           <%= render @microposts %>

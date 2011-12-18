@@ -1,10 +1,10 @@
 	<%= image_tag("catdog.jpg", :alt => "Cat & Dog",:width=>"204",:height=>"128")%>
 <banner1>
 <br />
-	<h2>
-		Menu 
+	<h3>
+		Drop Box >Click Me<
 		     
-	</h2>
+	</h3>
 	  <%= link_to 'Sign Up', signup_path %>
 	<% if signed_in? %>
       <li><%= link_to "Sign out", signout_path, :method => :delete %></li>
